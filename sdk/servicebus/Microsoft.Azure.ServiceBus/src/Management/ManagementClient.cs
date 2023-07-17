@@ -22,7 +22,7 @@ namespace Microsoft.Azure.ServiceBus.Management
         private readonly string clientId;
 
         /// <summary>
-        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management opertions on ServiceBus entities.
+        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management operations on ServiceBus entities.
         /// </summary>
         /// <param name="connectionString">Namespace connection string.</param>
         public ManagementClient(string connectionString)
@@ -31,7 +31,7 @@ namespace Microsoft.Azure.ServiceBus.Management
         }
 
         /// <summary>
-        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management opertions on ServiceBus entities.
+        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management operations on ServiceBus entities.
         /// </summary>
         /// <param name="endpoint">Fully qualified domain name for Service Bus. Most likely, {yournamespace}.servicebus.windows.net</param>
         /// <param name="tokenProvider">Token provider which will generate security tokens for authorization.</param>
@@ -41,7 +41,7 @@ namespace Microsoft.Azure.ServiceBus.Management
         }
 
         /// <summary>
-        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management opertions on ServiceBus entities.
+        /// Initializes a new <see cref="ManagementClient"/> which can be used to perform management operations on ServiceBus entities.
         /// </summary>
         /// <param name="connectionStringBuilder"><see cref="ServiceBusConnectionStringBuilder"/> having endpoint information.</param>
         /// <param name="tokenProvider">Token provider which will generate security tokens for authorization.</param>
